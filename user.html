@@ -1,0 +1,30 @@
+<div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-sm-offset-4 col-lg-4 col-lg-offset-4">
+                <h1>Weather Music Forecast</h1><br><br>
+            </div>
+        </div>
+        <div class="row">
+        </div>
+        <div class="row">
+            <label for="city" class="col-sm-1 col-sm-offset-2 col-lg-1 col-lg-offset-2 city-label">City</label>
+            <form class="col-sm-6  col-lg-6" ng-submit="$ctrl.fetchWeather()">
+                <input type="text" id="search" class="form-control" placeholder="type your city" ng-model="$ctrl.model.city">
+            </form>
+        </div><br><br>
+        <div class="row">
+            <div class="col-sm-2 col-sm-offset-5 col-lg-2 col-lg-offset-5">
+                <button type="submit" ng-click="$ctrl.fetchWeather()">Enter</button>
+            </div>
+        </div><br><br>
+        <div class="row" ng-if="$ctrl.model.temp">
+            <div class="col-sm-2 col-sm-offset-4 col-lg-2 col-lg-offset-4">
+                <img ng-src="{{$ctrl.model.iconUrl}}">
+            </div>
+            <div class="col-sm-3 col-lg-3">
+                <p>Il fait {{$ctrl.model.temp}}°C</p>
+            </div>
+        </div>
+    </div>
+</div>
