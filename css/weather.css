@@ -10,7 +10,11 @@ h1 {
     font-size: 45px !important;
 }
 
+<<<<<<< HEAD
 #city {
+=======
+#chosenCity{
+>>>>>>> eed813c20c323c544f130234ffffbda2b1ceaf29
     border-radius: 35px;
     background-color: mintcream;
     box-shadow: 5px 5px 8px 6px rgba(119, 119, 119, 0.75);
@@ -26,4 +30,9 @@ button {
 
 .city-label {
     font-size: 20px;
+<<<<<<< HEAD
     text-shadow: 1px 1px 1px black;
+=======
+    text-shadow: 1px 1px 1px black;
+
+>>>>>>> eed813c20c323c544f130234ffffbda2b1ceaf29
