@@ -1,16 +1,17 @@
 body{
-    font-family: 'Monoton', cursive !important; 
+    font-family:'Source Code Pro', monospace !important;
     color: darkslategray !important;
     background-image: url("../imgs/ciel.jpeg");
 }
 
 h1{
+    font-family: 'Monoton', cursive !important; 
     text-align: center;
     text-shadow: 2px 2px 2px black;
     font-size: 45px !important;
 }
 
-#chosenCity{
+#search{
     border-radius: 35px;
     background-color: mintcream;
     box-shadow: 5px 5px 8px 6px rgba(119, 119, 119, 0.75);
