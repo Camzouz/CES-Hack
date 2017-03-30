@@ -1,22 +1,22 @@
-body{
-    font-family: 'Monoton', cursive !important; 
+body {
+    font-family: 'Monoton', cursive !important;
     color: darkslategray !important;
     background-image: url("../imgs/ciel.jpeg");
 }
 
-h1{
+h1 {
     text-align: center;
     text-shadow: 2px 2px 2px black;
     font-size: 45px !important;
 }
 
-#city{
+#city {
     border-radius: 35px;
     background-color: mintcream;
     box-shadow: 5px 5px 8px 6px rgba(119, 119, 119, 0.75);
 }
 
-button{
+button {
     width: 100px;
     border-radius: 10px;
     background-color: mintcream;
@@ -24,11 +24,6 @@ button{
     text-shadow: 1px 1px 1px black;
 }
 
-.city-label{
+.city-label {
     font-size: 20px;
     text-shadow: 1px 1px 1px black;
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> d8683732cadf477b710180e8be8dff6e0dd1dc96
