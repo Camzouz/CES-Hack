@@ -9,7 +9,7 @@
         </div>
         <div class="row">
             <label for="city" class="col-sm-1 col-sm-offset-2 col-lg-1 col-lg-offset-2 city-label">City</label>
-            <form class="col-sm-6  col-lg-6" ng-submit="$ctrl.fetchWeather()">
+            <form id="chosenCity" class="col-sm-6  col-lg-6" ng-submit="$ctrl.fetchWeather()">
                 <input type="text" id="search" class="form-control" placeholder="type your city" ng-model="$ctrl.model.city">
             </form>
         </div><br><br>
