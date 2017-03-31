@@ -1,52 +1,33 @@
-<<<<<<< HEAD
-body{
-    font-family:'Source Code Pro', monospace !important;
-=======
-body {
-    font-family: 'Monoton', cursive !important;
->>>>>>> 54b98785397bf9091ab344077f031e0a51b9b70f
-    color: darkslategray !important;
-    background-image: url("../imgs/ciel.jpeg");
-}
-
-<<<<<<< HEAD
-h1{
-    font-family: 'Monoton', cursive !important; 
-=======
-h1 {
->>>>>>> 54b98785397bf9091ab344077f031e0a51b9b70f
-    text-align: center;
-    text-shadow: 2px 2px 2px black;
-    font-size: 45px !important;
-}
-
-<<<<<<< HEAD
-#search{
-=======
-<<<<<<< HEAD
-#city {
-=======
-#chosenCity{
->>>>>>> eed813c20c323c544f130234ffffbda2b1ceaf29
->>>>>>> 54b98785397bf9091ab344077f031e0a51b9b70f
-    border-radius: 35px;
-    background-color: mintcream;
-    box-shadow: 5px 5px 8px 6px rgba(119, 119, 119, 0.75);
-}
-
-button {
-    width: 100px;
-    border-radius: 10px;
-    background-color: mintcream;
-    font-size: 18px !important;
-    text-shadow: 1px 1px 1px black;
-}
-
-.city-label {
-    font-size: 20px;
-<<<<<<< HEAD
-    text-shadow: 1px 1px 1px black;
-=======
-    text-shadow: 1px 1px 1px black;
-
->>>>>>> eed813c20c323c544f130234ffffbda2b1ceaf29
+ body {
+     font-family: 'Source Code Pro', monospace !important;
+     color: darkslategray !important;
+     background-image: url("../imgs/ciel.jpeg");
+     background-size: 100%;
+     background-repeat: no-repeat;
+ }
+ 
+ h1 {
+     font-family: 'Monoton', cursive !important;
+     text-align: center;
+     text-shadow: 2px 2px 2px black;
+     font-size: 45px !important;
+ }
+ 
+ #search {
+     border-radius: 35px;
+     background-color: mintcream;
+     box-shadow: 5px 5px 8px 6px rgba(119, 119, 119, 0.75);
+ }
+ 
+ button {
+     width: 100px;
+     border-radius: 10px;
+     background-color: mintcream;
+     font-size: 18px !important;
+     text-shadow: 1px 1px 1px black;
+ }
+ 
+ .city-label {
+     font-size: 20px;
+     text-shadow: 1px 1px 1px black;
+ }

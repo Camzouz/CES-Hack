@@ -5,5 +5,4 @@
  */
 angular.module('weatherMoodApp', [
     "weatherMood.components",
-    "weatherMood.services"
 ])
